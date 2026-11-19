@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#10131D">
+<title>JAI Bio Studio</title>
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="assets/favicon-48.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+<div class="app-shell">
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="JAI Bio Studio home">
+      <span class="brand-symbol"><img src="assets/logo-mark.png" width="48" height="48" alt=""></span>
+      <span class="brand-text"><strong>JAI <em>Bio Studio</em></strong><small>CHARACTER PAGE CREATOR</small></span>
+    </a>
+    <div class="topbar-right"><img class="emblem" src="assets/emblem.png" width="64" height="52" alt="JAI Bio Studio emblem"></div>
+  </header>
+  <main>
+    <section class="hero-glass" id="hero" title="Tap to dismiss">
+      <div><span class="eyebrow">MAKE SOMETHING UNFORGETTABLE.</span><h1>Let your character <span>come alive.</span></h1><p>Build a character page with playful depth, bold color, and an instant preview.</p></div>
+      <div class="hero-art" aria-hidden="true"><span class="hero-orbit orbit-a"></span><span class="hero-orbit orbit-b"></span><span class="hero-star">✦</span></div>
+      <span class="hero-timer" aria-hidden="true"></span>
+    </section>
+    <div id="app"></div>
+  </main>
+  <footer class="footer"><span>JAI Bio Studio</span><span>Drafts are stored in this browser · Export your work whenever you like</span></footer>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite">Copied</div>
+<script src="app.js"></script>
+</body>
+</html>
